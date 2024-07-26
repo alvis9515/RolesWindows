@@ -7,7 +7,7 @@
     password: "{{ password_ad }}"
     domain_server: "{{ nombre_ad }}"
     ou: "{{ ou }}"
-    enabled: no
+    enabled: "{{ estado }}"
   loop: "{{ pc_desabled }}"
 
   
