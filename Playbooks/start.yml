@@ -1,4 +1,4 @@
 ---
-  hosts: all 
-  roles:
-  - Bajada_equipos
+-  hosts: all 
+   roles:
+    - Bajada_equipos
