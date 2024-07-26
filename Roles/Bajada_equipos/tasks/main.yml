@@ -2,6 +2,7 @@
 - name: Bajada de equipos
   community.windows.win_domain_computer:
     name: "{{ item }}"
+    dns_hostname: "{{ item }}"  # Agregado: Nombre DNS del equipo
     user: "{{ user_ad }}"
     password: "{{ password_ad }}"
     domain_server: "{{ nombre_ad }}"
