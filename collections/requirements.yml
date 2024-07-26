@@ -1,4 +1,4 @@
 ---
 collections:
-  - name: microsoft.ad.computer
+  - name: community.windows
   - name: awx
