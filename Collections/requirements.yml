@@ -1,5 +1,4 @@
 ---
 collections:
-  - name: install microsoft.ad
   - name: community.windows
   - name: awx
