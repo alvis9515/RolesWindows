@@ -4,7 +4,7 @@
     name: "{{ item }}"
     user: "{{ user_ad }}"
     password: "{{ password_ad }}"
-    domain: "{{ nombre_ad }}"
+    domain_server: "{{ nombre_ad }}"
     enabled: no
   loop: "{{ pc_desabled }}"
 
