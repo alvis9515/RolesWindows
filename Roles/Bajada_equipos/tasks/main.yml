@@ -1,0 +1,11 @@
+---
+- name: Bajada de equipos
+  community.windows.win_domain_computer:
+    name: "{{ item }}"
+    user: "{{ user_ad }}"
+    password: "{{ password_ad }}"
+    domain: "{{ nombre_ad }}"
+    enabled: no
+  loop: "{{ pc_desabled }}"
+
+  
