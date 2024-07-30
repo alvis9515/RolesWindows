@@ -1,0 +1,7 @@
+- name: Update pass
+  microsoft.ad.user:
+    name: "{{ user_n }}"
+    password: "{{ passwd_us }}"
+    domain_username: "{{ user_ad }}"
+    domain_password: "{{ password_ad }}"
+    state: present
