@@ -1,5 +1,5 @@
 - name: Desbloquear usuario en Active Directory
-  ansible.windows.win_user:
+  microsoft.ad.user:
     domain_username: "{{ user_ad }}"
     domain_password: "{{ password_ad }}"
     name: "{{ user_n }}"
