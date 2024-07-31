@@ -2,6 +2,7 @@
   microsoft.ad.user:
     domain_username: "{{ user_ad }}"
     domain_password: "{{ password_ad }}"
-    name: "{{ user_n }}"
+    name: "{{ item }}"
     state: present
     enabled: true
+  loop: "{{ users_unlock }}"
