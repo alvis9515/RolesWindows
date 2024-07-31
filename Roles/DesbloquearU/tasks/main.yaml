@@ -4,5 +4,5 @@
     domain_password: "{{ password_ad }}"
     name: "{{ item }}"
     state: present
-    enabled: true
+    enabled: "{{ enable_disable }}"
   loop: "{{ users_unlock }}"
