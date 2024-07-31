@@ -4,3 +4,4 @@
     domain_password: "{{ password_ad }}"
     name: "{{ user_n }}"
     state: present
+    enabled: true
